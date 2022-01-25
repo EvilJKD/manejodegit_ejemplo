@@ -13,3 +13,9 @@ Algunos comandos de Git:
 -git commit -m "<mensaje>" -> Para confirmar los cambios o los archivos nuevos dentro del repositorio.
 -git status-> Ver el status de los archivos del repositorio.
 -git log <archivo> -> Para evidenciar todos los commits de uin archivo.
+-git show <archivo> -> Muestra los cambios de un archivo.
+
+
+
+Notas:
+Cuando se hace un commit sin mensaje, sale una ventana en consola donde se pide que se ingrese. Para salir de esta ventana, se pulsa <esc + i>, se ingresa un mensaje y se pulsa <esc + shift + z + z>(esto fuerza el envío del commit).
