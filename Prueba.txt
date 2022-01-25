@@ -16,7 +16,7 @@ Algunos comandos de Git:
 -git log <archivo> -> Para evidenciar todos los commits de uin archivo.
 -git show <archivo> -> Muestra los cambios de un archivo.
 -git diff <numero de commit 1> <numero de commit 2> -> Muestra los cambios del primer commit, con el segundo commit. 
-
+-git reset <numero de commit> <tipo> -> Regresar a alguna version antigua. Tipo puede ser --hard o --soft. Hard cambia todo, soft permite tener los cambios en stage. 
 
 
 Notas:
