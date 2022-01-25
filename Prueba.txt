@@ -3,3 +3,13 @@ Documento de prueba
 Curso de Git y Github Profesional - Platzi.
 
 Esta es una modificacion para commit.
+
+
+
+Algunos comandos de Git:
+
+-git init -> Para inicializar un repositorio en la presente carpeta. 
+-git add <. o archivo>-> Para poner en 'stage' los documentos que quiero añadir al repositorio.
+-git commit -m "<mensaje>" -> Para confirmar los cambios o los archivos nuevos dentro del repositorio.
+-git status-> Ver el status de los archivos del repositorio.
+-git log <archivo> -> Para evidenciar todos los commits de uin archivo.
