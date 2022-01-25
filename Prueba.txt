@@ -14,8 +14,9 @@ Algunos comandos de Git:
 -git status-> Ver el status de los archivos del repositorio.
 -git log <archivo> -> Para evidenciar todos los commits de uin archivo.
 -git show <archivo> -> Muestra los cambios de un archivo.
+-git diff <numero de commit 1> <numero de commit 2> -> Muestra los cambios del primer commit, con el segundo commit. 
 
 
 
 Notas:
-Cuando se hace un commit sin mensaje, sale una ventana en consola donde se pide que se ingrese. Para salir de esta ventana, se pulsa <esc + i>, se ingresa un mensaje y se pulsa <esc + shift + z + z>(esto fuerza el envío del commit).
+Cuando se hace un commit sin mensaje, sale una ventana en consola donde se pide que se ingrese. Si la ventana es de VIM: Para salir de esta ventana, se pulsa <esc + i>, se ingresa un mensaje y se pulsa <esc + shift + z + z>(esto fuerza el envío del commit). Si la ventana es VSCode: Se ingresa el mensaje en el archivo que apareció, se guarda y se cierra la ventana.
