@@ -8,5 +8,22 @@ body{
  width: 70%;
  padding: 1em;
  text-align: left;
- margin: 1px;
+ margin: 1px auto;
+ border: 1px solid black;
+}
+
+#contenido{
+    color:firebrick;
+    font-weight: bold;
+    text-align: center;
+}
+
+#cabecera{
+    background: rgba(94, 74, 158, 0.8);
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    color: white;
+    font-weight: bolder;
+    height: auto;
+    margin: 0;
+    padding: 0.5em;
 }
