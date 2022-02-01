@@ -19,7 +19,11 @@ Algunos comandos de Git:
 -git reset <numero de commit> <tipo> -> Regresar a alguna version antigua. Tipo puede ser --hard o --soft. Hard cambia todo, soft permite tener los cambios en stage. 
 -git checkout <numero de commit> <archivo> -> Sirve para ver una version antigua. Para regresar a la versión actual, el número de commit va a ser "master".
 -git commit -am -> Para hacer el add y commit sobre los archivos existentes modifiicados
-
+-git branch <nombre-branch> -> Para crear una branch desde donde estamos.
 
 Notas:
 Cuando se hace un commit sin mensaje, sale una ventana en consola donde se pide que se ingrese. Si la ventana es de VIM: Para salir de esta ventana, se pulsa <esc + i>, se ingresa un mensaje y se pulsa <esc + shift + z + z>(esto fuerza el envío del commit). Si la ventana es VSCode: Se ingresa el mensaje en el archivo que apareció, se guarda y se cierra la ventana.
+
+
+Branches:
+La rama se crea desde donde estamos. 
