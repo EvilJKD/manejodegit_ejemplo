@@ -1,5 +1,12 @@
 body{
-    color: deeppink;
-    text-align: center;
+    color: lightcoral;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+ width: 70%;
+ padding: 1em;
+ text-align: left;
+ margin: 1px;
 }
