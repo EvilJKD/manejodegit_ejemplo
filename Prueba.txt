@@ -36,6 +36,8 @@ Para evaluar que el servicio ssh funcione:
 eval $(ssh-agent -s)
 PAra agregar al servidor
 ssh-add ~.ssh/id_rsa
+Para cambiar los valores de un repositorio remoto
+git remote set-url <origin> <url/direccion>
 
 Notas:
 Cuando se hace un commit sin mensaje, sale una ventana en consola donde se pide que se ingrese. Si la ventana es de VIM: Para salir de esta ventana, se pulsa <esc + i>, se ingresa un mensaje y se pulsa <esc + shift + z + z>(esto fuerza el envío del commit). Si la ventana es VSCode: Se ingresa el mensaje en el archivo que apareció, se guarda y se cierra la ventana.
