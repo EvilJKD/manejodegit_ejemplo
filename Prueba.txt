@@ -27,6 +27,9 @@ Algunos comandos de Git:
 -git push origin :refs/tags/<titulo>  -> Para eliminar el tag especificado de Github
 -git tag -> Se muestran todos los tags existentes
 -git show-ref --tags  -> Para mostrar los tags y el hash al que hacen referencia
+-git show-branch  -> Para mostrar una rama
+-git show-branch --all -> Para mostrar todas las ramas
+-gitk  -> Manera visual de ver la historia de commits
 
 Remotos
 -git remote add origin <https> -> Para agregar un origen remoto.
