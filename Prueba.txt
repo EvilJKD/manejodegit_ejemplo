@@ -21,6 +21,8 @@ Algunos comandos de Git:
 -git commit -am -> Para hacer el add y commit sobre los archivos existentes modifiicados
 -git branch <nombre-branch> -> Para crear una branch desde donde estamos. Si no se pone un branch, devuelve una lista con los branches.
 -git merge <nombre-branch> -> Une la branch indicada con la branch en la que estamos.
+-git log --all --graph --decorate --oneline -> Para evidenciar un grafo con los diferentes commits. 
+-git tag -a <titulo> -m "<descripcion>"  -> Para crear tags dentro de Git, utilizado en la creacion de versiones.
 
 Remotos
 -git remote add origin <https> -> Para agregar un origen remoto.
@@ -28,6 +30,8 @@ Remotos
 -git remote -v -> Muestra los origenes de fetch y push.
 -git push origin <rama-origen> -> Enviar los cambios al repo remoto.
 -git pull origin <rama-destino> -> Recibir los cambios al repo local. Para permitir unrelated histories se agrega --allow-unrelated-histories
+
+
 
 Llaves SSH
 Para crear, se utiliza el comando:
