@@ -23,7 +23,8 @@ Algunos comandos de Git:
 -git merge <nombre-branch> -> Une la branch indicada con la branch en la que estamos.
 -git log --all --graph --decorate --oneline -> Para evidenciar un grafo con los diferentes commits. 
 -git tag -a <titulo> -m "<descripcion>"  -> Para crear tags dentro de Git, utilizado en la creacion de versiones.
--git tag -d <titulo>  -> Para eliminar el tag especificado
+-git tag -d <titulo>  -> Para eliminar el tag especificado pero no lo borra de Github
+-git push origin :refs/tags/<titulo>  -> Para eliminar el tag especificado de Github
 -git tag -> Se muestran todos los tags existentes
 -git show-ref --tags  -> Para mostrar los tags y el hash al que hacen referencia
 
